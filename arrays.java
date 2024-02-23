@@ -9,7 +9,7 @@ public class arrays {
         System.out.println("How many numbers do you wanna do? ");
         int x = scanner.nextInt();
         int array[] = new int[x];
-
+        
         System.out.println("Enter up to " + x + " numbers to find the sum and product of.");
 
         // print a bunch of stuff based on how many numbers the user inputs
