@@ -7,8 +7,6 @@ public class intersectionArrays {
         int array1[] = {1,3,5,6,7,8,9,10};
         int array2[] = {0,2,4,5,6,7,8,9,10};
 
-
-
         System.out.println("The contents of Array1 are: ");
         for (int i = 0; i < array1.length; i++){
             System.out.print(array1[i] + " ");
@@ -26,8 +24,6 @@ public class intersectionArrays {
         else {
             System.out.println("These arrays intersect at " + Intersection(array1, array2));
         }
-
-
 
     }
 

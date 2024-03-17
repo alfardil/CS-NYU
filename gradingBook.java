@@ -1,14 +1,14 @@
 import java.util.Random;
 
-
 public class gradingBook {
     public static void main(String[] args) {
         // 5 students , 4 assigments + 2 exams
         int myClass[][] = new int[5][6];
         // the letter grades of the students
         String myStudentsGrades[] = new String[myClass.length];
-        Random random = new Random();
 
+        // make some random grades for the class 
+        Random random = new Random();
         for (int i = 0; i < myClass.length; i++) {
             for (int j = 0; j < myClass[i].length; j++) {
                 myClass[i][j] = random.nextInt(100);
@@ -62,6 +62,7 @@ public class gradingBook {
         }
     }
 
+    // method to get the letter grade for the students' averages
     public static String letterGrade(float grade) {
         if (grade >= 90) {
             return "A";
